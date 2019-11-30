@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenaestrada554/chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenaestrada554/chat/issues"
+  },
+  "homepage": "https://github.com/lorenaestrada554/chat#readme",
+  "dependencies": {
+    "node": "^13.1.0",
+    "socket.io": "^2.3.0"
+  }
+}
