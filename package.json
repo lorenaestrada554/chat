@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "node server/main.js"
   },
@@ -18,7 +21,8 @@
   },
   "homepage": "https://github.com/lorenaestrada554/chat#readme",
   "dependencies": {
-    "node": "^13.1.0",
-    "socket.io": "^2.3.0"
+    "express": "*",
+    "node": "*",
+    "socket.io": "*"
   }
 }
